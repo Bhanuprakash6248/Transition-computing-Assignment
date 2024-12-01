@@ -86,7 +86,7 @@ const ChatPanel = () => {
             className="icon-search-side"
             alt="icon"
           />
-          <button className="home-center-container-send-button">Send</button>
+          <button className="send-button"><img src={assets.sentImg} alt="sent-img"/><span>Sent</span></button>
         </div>
       </div>
     </div>

@@ -45,10 +45,9 @@
     padding: 25px;
 }
 .button-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 8px;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+
 }
 .hrline{
     border: 1px solid #44486D1A;

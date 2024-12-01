@@ -69,3 +69,8 @@
     border: 1px solid #44486D1A;
     width: 100%;
 }
+.send-button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

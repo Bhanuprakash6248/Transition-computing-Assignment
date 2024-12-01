@@ -32,7 +32,7 @@ const AskCatura = () => {
 
     <div className="chat-footer">
       <input type="text" className="chat-input" placeholder="Type a message..." />
-      <button className="send-button">➤</button>
+      <button className="send-button"><img src={assets.sentImg} alt="sent-img"/></button>
     </div>
   </div>
   )
