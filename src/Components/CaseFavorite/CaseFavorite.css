@@ -1,0 +1,71 @@
+/* ActionLauncher.css */
+.action-launcher {
+  width: 350px;
+  height: 30%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.head-con{
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  padding-left: 18px;
+  img{
+    height: 20px;
+    align-self: center;
+  }
+}
+.action-launcher h3 {
+  font-size: 16px;
+  margin: 0 0 16px;
+  color: #333;
+}
+.heading{
+    padding-left: 10px;
+    
+    color: #0F1729;
+    font-weight: bold;
+    font-size: 25px;
+}
+.image-image{
+  padding-right: 15px;
+}
+.search-input {
+  width: 94%;
+  height: 30px;
+  padding: 8px 12px;
+  border: 1px solid #4C629233;
+  border-radius: 4px;
+  
+  outline: none;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+.search-input p{
+    color: #0F1729;
+    font-size: 15px;
+    font-weight: 500;
+}
+.image{
+    font-size: 8px;
+}
+.down-con{
+    padding: 25px;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hrline{
+    border: 1px solid #44486D1A;
+    width: 100%;
+}
