@@ -1,7 +1,8 @@
 import fileSearch from "./file-search-02.png"
 import fileCheck from "./file-check-02.png"
 import copyLink from "./link-03.png"
-import users from "./users.png"
+import usersColor from "./users.png"
+import users from "./users (1).png"
 import map from "./sitemap.png"
 import user from "./user.png"
 import box from "./box.png"
@@ -65,7 +66,7 @@ export const sidebarContent = [
     },
     {
         name:"Queue",
-        image:users
+        image:usersColor
     },
     {
         name:"Workflow",

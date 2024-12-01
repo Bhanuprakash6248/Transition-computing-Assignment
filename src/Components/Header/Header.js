@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import "./Header.css"
 import { assets } from '../../Assets/Assets'
 import { IoIosArrowForward } from "react-icons/io";
@@ -6,35 +6,38 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Header = () => {
     const [clicked,setClicked] = useState(false)
+    
+    
     const listclicked = clicked ? "headerActive":""
 
     const handleHeader = ()=>{
-        setClicked((prev)=>!prev)
+        setClicked(!clicked)
+        
     }
   return (
     <ul className='header-ul'>
-        <li className={`header-listItem ${listclicked}`} onClick={handleHeader}>
-            <div className='header-pic'><span>CB</span></div>
+        <li className={`header-listItem ${listclicked}`} onClick={handleHeader}  > 
+            <div className='header-pic'>CB</div>
             <p className='header-name'>Cheyenne Bergson</p>
-        </li>
+        </li >
         <li className='header-listItem'>
-            <div className='header-pic'><span>CB</span></div>
+            <div className='header-pic'>CB</div>
             <p className='header-name'>Jonathan Higgins</p>
         </li>
         <li className='header-listItem'>
-            <div className='header-pic'><span>CB</span></div>
+            <div className='header-pic'>CB</div>
             <p className='header-name'>Capt. Trunk</p>
         </li>
         <li className='header-listItem'>
-            <div className='header-pic'><span>CB</span></div>
+            <div className='header-pic'>CB</div>
             <p className='header-name'>Hannibal Smi..</p>
         </li>
         <li className='header-listItem'>
-            <div className='header-pic'><span>CB</span></div>
+            <div className='header-pic'>CB</div>
             <p className='header-name'>Capt. Trunk </p>
         </li>
         <li className='header-listItem'>
-            <div className='header-pic'><span>CB</span></div>
+            <div className='header-pic'>CB</div>
             <p className='header-name'>Hannibal Smi..</p>
             <span className='header-notification'>2</span>
         </li>

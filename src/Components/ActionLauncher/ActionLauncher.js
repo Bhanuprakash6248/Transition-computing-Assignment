@@ -14,7 +14,7 @@ const ActionLauncher = () => {
       <div className="down-con">
         <div className="search-input">
           <img src={assets.search} alt="search-img"className="image"/>
-          <input type="text" placeholder="Search actions..." />
+          <input type="text" placeholder="Search actions..." className="actionInput" />
         </div>
         <div className="button-container">
           <button className="action-button1 add">
